@@ -1,1 +1,44 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: "Funnel Display", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+img{
+    max-width: 100%;
+}
+.wrapper{
+    background: linear-gradient(0deg,rgba(43, 0, 87, 1) 0%, rgba(13, 0, 31, 1) 100%);
+    width: 100%;
+}
+.container{
+    width: 1080px;
+    margin:0 auto;
+}
+header{
+    padding: 50px 0;
+}
+header .logo{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+}
+header nav{
+    float:right;
+    width: 30%;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.hero{
+    padding-bottom: 100px;
+}
+.hero--info{
+    width: 400px;
+}
